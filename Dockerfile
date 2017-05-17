@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.7
 
 ADD . /go/src/github.com/lwander/k8s-demo
 
